@@ -1,0 +1,10 @@
+import hashlib
+
+
+
+print(hashlib.algorithms_available)
+
+
+{'sm3', 'shake_256', 'md5', 'md4', 'sha224', 'shake_128', 'sha512_224', 'sha3_256', 'md5-sha1', 'ripemd160',
+ 'blake2b', 'sha3_384', 'sha1', 'sha3_224', 'blake2s', 'sha384', 'sha512_256', 'sha3_512', 'sha256', 'whirlpool',
+ 'sha512'}
